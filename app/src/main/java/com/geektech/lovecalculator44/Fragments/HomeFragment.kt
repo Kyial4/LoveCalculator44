@@ -13,8 +13,9 @@ import com.geektech.lovecalculator44.Model.LoveViewModel
 import com.geektech.lovecalculator44.Prefs
 import com.geektech.lovecalculator44.R
 import com.geektech.lovecalculator44.databinding.FragmentHomeBinding
+import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
-
+@AndroidEntryPoint
 class HomeFragment : Fragment() {
     private lateinit var binding: FragmentHomeBinding
     private val viewModel: LoveViewModel by viewModels()
